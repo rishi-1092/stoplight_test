@@ -24,6 +24,10 @@
     {
       "url": "https://petstore3.swagger.io/api/v3",
       "description": "production"
+    },
+    {
+      "url": "https://petstore3.swagger.io/api/v3",
+      "description": "test"
     }
   ],
   "tags": [
@@ -1155,7 +1159,8 @@
         },
         "xml": {
           "name": "pet"
-        }
+        },
+        "x-examples": {}
       },
       "ApiResponse": {
         "type": "object",
